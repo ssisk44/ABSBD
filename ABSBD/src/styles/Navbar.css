@@ -1,0 +1,60 @@
+/* Navbar.css */
+.navbar {
+	/* Self Parameters */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 4vh;
+	color: #000000; /* Change the text color as needed */
+	padding: .5vw;
+
+	/* Contents Parameters */
+	display: flex;
+}
+
+.navbar > div {
+	/* Contents Parameters */
+	margin: 0vw .25vw;
+	background-color: rgb(236, 232, 232);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	min-width: 5vmax;
+	min-height: 5vmax;
+	border-radius: 1vw;
+
+}
+  
+.amazonLogoIcon{
+	text-decoration: #000000;
+	font-size: 2vw;
+}
+
+.homeIcon{
+	font-size: 2vw;
+}
+
+.title {
+	width: auto;
+	padding: 0vw .8vw;
+	font-size: .8vw;
+	border-radius: 1vw;
+}
+
+a, a:link, a:visited {
+	color: black;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:active{
+	color:orange;
+}
+
+a:visited {
+	color: black;
+  }
